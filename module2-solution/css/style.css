@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 175%;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 125%;
+    margin: 0;
+    width: 33.33%;
+    height: 45px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#chicken {
+    background-color: salmon;
+}
+
+#beef {
+    background-color: darkred;
+    color: white;
+}
+
+#sushi {
+    background-color: khaki;
+}
+
+.col {
+    width: 100%;
+    float: left;
+    padding: 10px;
+}
+
+/* Tablet layout uses 2 columns */
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-50 {
+        width: 50%;
+        float: left;
+        padding: 10px;
+    }
+}
+
+/* Desktop layout uses 3 columns */
+@media (min-width: 992px) {
+    .col-lg-33 {
+        width: 33.33%;
+        float: left;
+        padding: 10px;
+    }
+}
+
+section {
+    border: 1px solid black;
+    background-color: lightgrey;
+    position: relative;
+    padding-top: 50px;
+}
+
+p {
+    margin: 10px;
+}
