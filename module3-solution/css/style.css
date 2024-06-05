@@ -1,0 +1,15 @@
+#brand {
+    font-size: 2.5em;
+}
+
+.navbar {
+    background-color: lightgray;
+}
+
+.nav-item {
+    border: 1px solid black;
+}
+
+.container {
+    background-color: lightgray;
+}
